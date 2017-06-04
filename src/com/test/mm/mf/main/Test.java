@@ -29,15 +29,43 @@ public class Test {
 				+ "Mississippi,	Missouri,	Montana+Nebraska,	Nevada,	New+Hampshire,	New+Jersey,	"
 				+ "New+Mexico,	New+York,	North+Carolina,	North+Dakota,	Ohio,	Oklahoma,	"
 				+ "Oregon,	Pennsylvania+Rhode+Island,	South+Carolina,	South+Dakota,	Tennessee,	"
-				+ "Texas,	Utah,	Vermont,	Virginia,	Washington,	West+Virginia,	Wisconsin,	Wyoming";
+				+ "Texas,	Utah,	Vermont,	Virginia,	Washington,	West+Virginia,	Wisconsin,	Wyoming"
+				+ "Java+Apache+Ant				 ,Java+Apache+POI+(Powerpoint) , Java+Apache+POI+(Word)       , "
+				+ "Java+Apache+POI              ,Java+AWT                     ,Java+Design+Patterns         ,"
+				+ "Java+EasyMock                ,Java+Eclipse                 ,Java+EJB                     ,"
+				+ "Java+Guava                   ,Java+Hibernate               ,Java+iBATIS                  ,"
+				+ "Java+Jackson                 ,Java+JasperReports           ,Java+Java+Concurrency        ,Java+Java+RMI                ,"
+				+ "Java+io+Package              ,Java+Interview+Questions     ,Java+lang+Package            ,Java+reflect+Package         ,"
+				+ "Java+time+Package            ,Java+math+Package            ,Java+util+Package            ,Java+Java+XML                ,"
+				+ "Java+Java-8                  ,Java+Examples                ,Java+JavaFx                  ,Java+JavaMail+API            ,"
+				+ "Java+Jbpm5                   ,Java+JDB                     ,Java+JDBC                    ,Java+JFreeChart              ,"
+				+ "Java+jMeter                  ,Java+JOGL                    ,Java+JPA                     ,Java+JSON                    ,"
+				+ "Java+JSP                     ,Java+JUnit                   ,Java+log4j                   ,Java+Lucene                  ,"
+				+ "Java+Maven                   ,va+PDFbox                  ,Java+Servlets                ,Java+Spring                  ,"
+				+ "Java+Spring+AOP              ,va+Spring+MVC              ,Java+Spring+Web+Services     ,Java+Struts+2x               ,"
+				+ "Java+Swing                   ,Java+TestNG                  ,Java+Apache+Tika             ,Java+Apache+Xerces           ,Java+XStream "
+				+ "Ajax				,AmazonWebServices   ,AngularMaterial     ,Angular2            ,AngularJS           ,ApacheTapestry      ,"
+				+ "ASP.Net             ,Aurelia             ,BackboneJS          ,Bootstrap           ,CakePHP             ,CherryPy            ,"
+				+ "Codeigniter         ,CoffeeScript        ,CPanel              ,CSS                 ,Django              ,Drupal              ,"
+				+ "Electron            ,EmberJS             ,ExpressJS           ,ExtJS               ,ES6                 ,Firebase            ,"
+				+ "Flask               ,AdobeFlex           ,Foundation          ,Framework7          ,Google+Maps         ,Grav                ,"
+				+ "Grunt               ,Gulp                ,GWT                 ,Highcharts          ,HTML                ,HTML5               ,"
+				+ "HTTP                ,JasmineJS           ,JavaScript          ,Joomla              ,jQuery              ,jQueryUI            ,"
+				+ "JSF                 ,KnockoutJS          ,KoaJS               ,Laravel             ,LESS                ,MathML              ,"
+				+ "Magento+Framework   ,Material+Design+Lite,Materialize         ,Mootools            ,MVC+Framework       ,Phalcon             ,"
+				+ "Prototype           ,Pure+CSS            ,ReactJS             ,RESTfulWebServices  ,RubyonRails2        ,RubyonRails         ,"
+				+ "SASS                ,script+aculo+us     ,  SenchaTouch         ,  SVG                 ,  TurboGears          ,  Typescript          ,  "
+				+ "VBScript            ,  W3CSS               ,  WebDevelopers+Guide ,  WebIcons            ,  Web2Py              ,  WebGL               ,  "
+				+ "WebRTC              ,  WebServices         ,  Website+Development ,  WebSockets          ,  Wordpress           ,  XHTML               ,  "
+				+ "Yii                 ,  ZendFramework ";
 		List<String> searchStrings = Arrays.asList(bigSearchStrings.split(",")); 
 		Collections.shuffle(searchStrings);
+		System.out.println(searchStrings.size());
 		int counter = 0;
 		for(String s : searchStrings){
 			counter++; 
 			Desktop desk = Desktop.getDesktop();
 			desk.browse(new URI(url.concat(s.trim())));
-			//System.out.println(s);
 			if(counter == 30){
 				break;
 			}

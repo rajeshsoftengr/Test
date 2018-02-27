@@ -43,7 +43,7 @@ public class Test {
 				+ "Java+JSP                     ,Java+JUnit                   ,Java+log4j                   ,Java+Lucene                  ,"
 				+ "Java+Maven                   ,va+PDFbox                  ,Java+Servlets                ,Java+Spring                  ,"
 				+ "Java+Spring+AOP              ,va+Spring+MVC              ,Java+Spring+Web+Services     ,Java+Struts+2x               ,"
-				+ "Java+Swing                   ,Java+TestNG                  ,Java+Apache+Tika             ,Java+Apache+Xerces           ,Java+XStream "
+				+ "Java+Swing                   ,Java+TestNG                  ,Java+Apache+Tika             ,Java+Apache+Xerces           ,Java+XStream ,"
 				+ "Ajax				,AmazonWebServices   ,AngularMaterial     ,Angular2            ,AngularJS           ,ApacheTapestry      ,"
 				+ "ASP.Net             ,Aurelia             ,BackboneJS          ,Bootstrap           ,CakePHP             ,CherryPy            ,"
 				+ "Codeigniter         ,CoffeeScript        ,CPanel              ,CSS                 ,Django              ,Drupal              ,"
